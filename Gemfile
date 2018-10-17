@@ -2,4 +2,5 @@
 
 source "https://rubygems.org"
 
-gem "sidekiq", "~> 5.2"
+gem "mock_redis", "~> 0.19"
+gem "sidekiq",    "~> 5.2"

@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     connection_pool (2.2.2)
+    mock_redis (0.19.0)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack
@@ -15,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  mock_redis (~> 0.19)
   sidekiq (~> 5.2)
 
 BUNDLED WITH
