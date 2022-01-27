@@ -4,8 +4,8 @@ GEM
     connection_pool (2.2.5)
     mock_redis (0.22.0)
     rack (2.2.3)
-    redis (4.4.0)
-    sidekiq (6.2.1)
+    redis (4.5.1)
+    sidekiq (6.4.0)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -15,7 +15,7 @@ PLATFORMS
 
 DEPENDENCIES
   mock_redis (~> 0.19)
-  sidekiq (~> 6.2)
+  sidekiq (~> 6.4)
 
 BUNDLED WITH
    1.17.3
