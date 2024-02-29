@@ -4,7 +4,7 @@ GEM
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     mock_redis (0.22.0)
-    rack (3.0.8)
+    rack (3.0.9.1)
     redis-client (0.17.0)
       connection_pool
     sidekiq (7.1.3)
